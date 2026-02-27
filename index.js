@@ -44,6 +44,24 @@ app.get('/favicon.ico', (req, res) => {
 
 app.use("/medias", express.static(join(__dirname, 'medias')));
 
+app.get('/.well-known/security.txt', (req, res) => {
+    const securityContact = [
+        'Contact: mailto:admin@vivesvoix.fr',
+        'Acknowledgments: https://github.com/vivesvoix/vivesvoix',
+        'Preferred-Languages: fr, en',
+        'Canonical: https://vivesvoix.fr/.well-known/security.txt'
+    ].join('\n');
+
+    res.header('Content-Type', 'text/plain');
+    res.send(securityContact);
+});
+
+// reste des requêtes (erreur 404)
+
+app.use((req, res) => {
+    res.status(404).sendFile(join(__dirname, 'pages', '404.html'));
+});
+
 app.listen(PORT, () => {
     console.log(`Le site est lancé sur http://localhost:${PORT}`);
 });
