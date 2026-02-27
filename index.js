@@ -15,18 +15,18 @@ app.use(express.json());
 app.use(express.static('pages'));
 app.use('/src', express.static('src'));
 
-const defaultData = { timestamp: Date.now(), error: "no_db" }
-const db = await JSONFilePreset('db/db.json', defaultData)
+// const defaultData = { timestamp: Date.now(), error: "no_db" }
+// const db = await JSONFilePreset('db/db.json', defaultData)
 
-// ébauche d'une feature permettant de modifier à distance le contenu du site sans modifier le json
-// mis en suspens pour des raisons de simplicité et de sécurité
+// // ébauche d'une feature permettant de modifier à distance le contenu du site sans modifier le json
+// // mis en suspens pour des raisons de simplicité et de sécurité
 
-async function updateTimestamp() {
-    db.data.timestamp = Date.now();
-    await db.write();
-}
+// async function updateTimestamp() {
+//     db.data.timestamp = Date.now();
+//     await db.write();
+// }
 
-await updateTimestamp();
+// await updateTimestamp();
 
 // routes
 
