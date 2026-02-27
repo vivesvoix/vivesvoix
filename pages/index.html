@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vives voix - La vie après la Shoah</title>
+    <link href="/src/post.css" rel="stylesheet" type="text/css">
+    <script src="/src/main.js" type="module"></script>
+</head>
+
+<body class="min-h-screen relative flex flex-col antialiased selection:bg-blue-500/30">
+
+    <!-- texte de fond animé -->
+    <div id="bg-text-container" class="bg-text-container" aria-hidden="true">
+        <!-- le texte sera inséré dynamiquement -->
+    </div>
+
+    <!-- conteneur principal -->
+    <div class="flex-grow z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col gap-12">
+
+        <!-- en-tête -->
+        <header
+            class="relative overflow-hidden glass shadow-2xl rounded-3xl md:rounded-[2.5rem] p-6 py-8 md:p-12 flex flex-col items-center text-center md:flex-row md:items-center md:text-left justify-between gap-6 md:gap-10 animate-fade-in-up border-t-[4px] md:border-t-[6px] border-t-indigo-500">
+
+            <!-- formes colorées de décoration -->
+            <div
+                class="absolute -top-24 -right-16 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none">
+            </div>
+            <div
+                class="absolute -bottom-24 -left-16 w-64 h-64 bg-pink-500/20 rounded-full blur-3xl pointer-events-none">
+            </div>
+
+            <div class="max-w-2xl relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
+                <h1 class="text-5xl sm:text-6xl md:text-7xl font-black tracking-tight mb-4 md:mb-6 whitespace-nowrap">
+                    VIVES <span class="text-gradient">VOIX</span>
+                </h1>
+                <p class="text-base md:text-xl text-slate-100 leading-relaxed font-medium">
+                    La vie après la Shoah : un espace numérique collaboratif dédié à la centralisation de la mémoire des
+                    survivants
+                    et à leurs témoignages.
+                </p>
+            </div>
+
+            <!-- boutons d'action -->
+            <div class="flex flex-wrap items-center justify-center gap-4 relative z-10 w-full md:w-auto">
+                <button id="credits-toggle" class="glass-card p-4 md:hover:scale-110 active:scale-95 text-slate-200"
+                    aria-label="View Credits">
+                    <!-- icône info pour les crédits -->
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                    </svg>
+                </button>
+
+                <a href="https://github.com/vivesvoix/vivesvoix" target="_blank"
+                    class="glass-card p-4 md:hover:scale-110 active:scale-95 text-slate-200"
+                    aria-label="GitHub Repository">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+
+                <button id="filter-toggle" class="glass-card p-4 md:hover:scale-110 active:scale-95 text-slate-200"
+                    aria-label="Toggle Filters">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <!-- panneau des filtres (caché par défaut) -->
+        <div id="filter-wrapper" class="grid grid-rows-[0fr] transition-[grid-template-rows] duration-500 ease-in-out">
+            <div class="overflow-hidden">
+                <div id="filter-panel"
+                    class="glass rounded-3xl p-8 mt-6 opacity-0 transition-opacity duration-500 ease-in-out">
+                    <div class="flex flex-col md:flex-row gap-6">
+                        <!-- barre de recherche -->
+                        <div class="flex-1 space-y-4">
+                            <h3 class="text-xl font-bold">Recherche</h3>
+                            <div class="relative">
+                                <input type="text" id="search-input" placeholder="Rechercher par titre, contenu..."
+                                    class="w-full bg-slate-800/50 border border-slate-700 rounded-xl px-4 py-3 outline-none focus:ring-2 focus:ring-indigo-600 transition-all text-slate-100 placeholder-slate-600">
+                            </div>
+                        </div>
+
+                        <!-- filtres par tags -->
+                        <div class="flex-1 space-y-4">
+                            <h3 class="text-xl font-bold">Tags</h3>
+                            <div id="tags-container" class="flex flex-wrap gap-2">
+                                <!-- les tags seront insérés ici -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- grille des témoignages/ressources -->
+        <main id="cards-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- les cartes seront générées dynamiquement via js -->
+        </main>
+
+        <!-- état de chargement -->
+        <div id="loading-state" class="flex justify-center items-center py-20">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-indigo-400"></div>
+        </div>
+
+    </div>
+
+    <!-- pop-up des infos/crédits -->
+    <div id="credits-modal" class="fixed inset-0 z-50 flex justify-center items-center pointer-events-none px-4 py-8">
+        <div class="absolute inset-0 bg-slate-950/70 backdrop-blur-sm opacity-0 transition-opacity duration-300 ease-in-out"
+            id="credits-modal-backdrop"></div>
+        <div id="credits-modal-content"
+            class="relative glass rounded-3xl md:rounded-[2.5rem] p-6 md:p-12 max-w-2xl w-full mx-auto transform scale-95 opacity-0 transition-all duration-300 ease-in-out flex flex-col items-center text-center max-h-[90vh] overflow-y-auto custom-scrollbar">
+            <button id="credits-close"
+                class="absolute top-4 right-4 md:top-6 md:right-6 text-slate-400 hover:text-white transition-colors bg-slate-800/50 hover:bg-slate-700/50 rounded-full p-2 md:p-0 md:bg-transparent md:hover:bg-transparent">
+                <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+            <div class="w-full flex flex-col h-full pt-4 md:pt-0">
+                <h2 id="credits-title"
+                    class="text-2xl md:text-3xl font-bold tracking-tight mb-4 md:mb-6 text-white text-gradient">Crédits
+                </h2>
+                <div class="overflow-y-auto custom-scrollbar flex-grow pr-2 md:pr-4">
+                    <p id="credits-text"
+                        class="text-sm md:text-base text-slate-200 font-medium leading-relaxed whitespace-pre-wrap mb-6 md:mb-8 text-left md:text-center">
+                        Chargement...
+                    </p>
+                    <div id="credits-links" class="flex flex-col gap-3 w-full max-w-sm mx-auto pb-4">
+                        <!-- les liens seront insérés ici -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pop-up du détail d'une ressource -->
+    <div id="resource-modal" class="fixed inset-0 z-50 flex justify-center items-center pointer-events-none px-4 py-8">
+        <div class="absolute inset-0 bg-slate-950/70 backdrop-blur-sm opacity-0 transition-opacity duration-300 ease-in-out"
+            id="resource-modal-backdrop"></div>
+        <div id="resource-modal-content"
+            class="relative glass rounded-3xl md:rounded-[2.5rem] p-6 md:p-12 max-w-2xl w-full mx-auto transform scale-95 opacity-0 transition-all duration-300 ease-in-out flex flex-col max-h-[90vh] overflow-y-auto custom-scrollbar">
+
+            <button id="resource-close"
+                class="absolute top-4 right-4 md:top-6 md:right-6 text-slate-400 hover:text-white transition-colors bg-slate-800/50 hover:bg-slate-700/50 rounded-full p-2 md:p-0 md:bg-transparent md:hover:bg-transparent z-10">
+                <svg class="w-6 h-6 md:w-8 md:h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+
+            <div class="w-full flex flex-col h-full pt-4 md:pt-0">
+                <div class="flex items-start justify-between mb-4 md:mb-6 gap-4 pr-10">
+                    <div>
+                        <h2 id="resource-title" class="text-2xl md:text-3xl font-bold tracking-tight mb-3 text-white">
+                            Titre</h2>
+                        <div id="resource-tags" class="flex flex-wrap gap-2 mb-2">
+                            <!-- tags insérés ici -->
+                        </div>
+                    </div>
+                    <div id="resource-thumbnail-container" class="shrink-0 hidden">
+                        <img id="resource-thumbnail" src="" alt="Miniature"
+                            class="w-20 h-20 md:w-28 md:h-28 rounded-2xl object-cover shadow-md border border-slate-700 bg-slate-800">
+                    </div>
+                </div>
+
+                <div class="overflow-y-auto custom-scrollbar flex-grow pr-2 md:pr-4 mb-6">
+                    <div class="bg-indigo-950/30 border border-indigo-500/20 rounded-2xl p-4 md:p-6 mb-6">
+                        <p id="resource-content"
+                            class="text-sm md:text-base text-slate-300 font-medium leading-relaxed italic border-l-4 border-indigo-500 pl-4">
+                            Extrait...
+                        </p>
+                    </div>
+
+                    <h3 class="text-lg font-bold text-white mb-3">Description</h3>
+                    <p id="resource-description"
+                        class="text-sm md:text-base text-slate-200 leading-relaxed whitespace-pre-wrap">
+                        Description détaillée...
+                    </p>
+                </div>
+
+                <div class="mt-auto flex items-center justify-between pt-6 border-t border-slate-700/50">
+                    <span id="resource-date" class="text-xs md:text-sm text-slate-400 font-semibold"></span>
+                    <a id="resource-link" href="#" target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-3.5 text-sm md:text-base font-bold transition-all duration-300 border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 active:scale-95 shadow-xl
+                        <!-- bouton indigo, texte blanc -->
+                        bg-indigo-600 text-white md:hover:bg-indigo-500 focus:ring-indigo-500 shadow-indigo-600/25 md:hover:shadow-indigo-500/40">
+                        Accéder à la ressource
+                        <svg class="ml-2 -mr-1 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

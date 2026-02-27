@@ -1,0 +1,33 @@
+{
+  "name": "vivesvoix",
+  "version": "1.0.0",
+  "description": "Plateforme interactive témoignant de la vie après la Shoah.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev:css": "tailwindcss -i ./src/pre.css -o ./src/post.css --watch",
+    "build:css": "tailwindcss -i ./src/pre.css -o ./src/post.css",
+    "dev": "concurrently \"npm run dev:css\" \"node index.js\"",
+    "build": "npm run build:css",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vivesvoix/vivesvoix.git"
+  },
+  "author": "Adam, Camille, Mélina, Lyna",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vivesvoix/vivesvoix/issues"
+  },
+  "homepage": "https://github.com/vivesvoix/vivesvoix#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.2.1",
+    "express": "^5.2.1",
+    "lowdb": "^7.0.1",
+    "tailwindcss": "^4.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

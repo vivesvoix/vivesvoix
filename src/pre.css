@@ -1,0 +1,92 @@
+@import "tailwindcss";
+@source "../pages";
+
+@theme {
+    --color-glass-base: rgba(17, 24, 39, 0.4);
+    --color-glass-border: rgba(255, 255, 255, 0.08);
+    --animate-marquee: marquee 120s ease-in-out infinite alternate;
+    --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+}
+
+@layer utilities {
+    .glass {
+        @apply bg-glass-base backdrop-blur-lg border border-glass-border shadow-lg;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    .glass-card {
+        @apply bg-glass-base backdrop-blur-lg border border-glass-border shadow-lg rounded-3xl overflow-hidden transition-all duration-300;
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    }
+
+    @media (hover: hover) {
+        .glass-card:hover {
+            @apply -translate-y-2 shadow-2xl;
+            box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.5);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+    }
+
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-pink-400;
+    }
+}
+
+@layer base {
+    body {
+        /* Always default to dark mode colors */
+        @apply bg-slate-950 text-slate-200 overflow-x-hidden;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bg-text-container {
+    @apply fixed inset-0 flex flex-col justify-center pointer-events-none -z-10 select-none overflow-hidden;
+}
+
+.bg-text-line {
+    @apply whitespace-nowrap text-[8rem] md:text-[15rem] font-black tracking-tighter opacity-[0.02] leading-none animate-marquee;
+    color: currentColor;
+}
+
+.bg-text-line:nth-child(even) {
+    animation-direction: alternate-reverse;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-700 rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate-600;
+}

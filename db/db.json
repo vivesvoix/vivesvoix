@@ -1,0 +1,88 @@
+{
+  "timestamp": 1772212577768,
+  "credits": {
+    "title": "Informations",
+    "text": "Cet espace a été créé dans le cadre du Concours national de la Résistance et de la Déportation édition 2025-2026. Son but est de rassembler des ressources sur la vie des survivants de la Shoah.\n\nSi des sources présentes sur ce site vous appartiennent et que vous souhaitez les retirer, veuillez nous contacter par l'intermédiaire du repo GitHub dans la catégorie \"Issues\" ou par mail ci-dessous. Vous pouvez également contribuer à l'aide du lien GitHub, tout est expliqué dans la documentation. \n\nLyna, Camille, Mélina et Adam, élèves de Terminale générale au lycée polyvalent Jean Perrin à Marseille.",
+    "links": [
+      {
+        "label": "Concours national de la résistance et de la déportation",
+        "url": "https://fr.wikipedia.org/wiki/Concours_national_de_la_r%C3%A9sistance_et_de_la_d%C3%A9portation"
+      },
+      {
+        "label": "Lycée Jean Perrin",
+        "url": "https://www.site.ac-aix-marseille.fr/lyc-perrin/spip/"
+      },
+      {
+        "label": "Code source GitHub",
+        "url": "https://github.com/vivesvoix/vivesvoix"
+      },
+      {
+        "label": "Adresse e-mail",
+        "url": "mailto:admin@vivesvoix.fr"
+      }
+    ]
+  },
+  "backgroundtext": "VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX",
+  "items": [
+    {
+      "id": "0",
+      "date": "1208469600",
+      "tags": [
+        "livre",
+        "pitchipoi",
+        "marseille",
+        "jeunesse"
+      ],
+      "title": "J’avais 16 ans à Pitchipoï",
+      "link": "https://google.com",
+      "content": "L’histoire bouleversante de Denise Toros-Marter, adolescente marseillaise déportée vers l’inconnu : \"Pitchipoï\", ce nom yiddish aux allures de village imaginaire qui dissimulait l’enfer d’Auschwitz.",
+      "description": "Dans ce témoignage autobiographique, Denise Toros-Marter raconte son arrestation en tant que jeune juive marseillaise. Internée au camp de Drancy, elle y entend le surnom de \"Pitchipoï\" (\"village imaginaire\") pour désigner leur destination inconnue. L'illusion se brise dramatiquement à l'arrivée des trains : il s'agissait du camp d'Auschwitz. Pour nous, lycéens marseillais, mettre un visage sur une jeune fille de notre âge arrachée aux rues mêmes de notre ville a rendu ce récit bouleversant. Cette lecture ancre concrètement l'horreur de la déportation et prouve l'importance vitale, pour notre génération, d'écouter la voix de ces survivants locaux.",
+      "thumbnail": "https://m.media-amazon.com/images/I/51nDBwO4uzL._SY522_.jpg"
+    },
+    {
+      "id": "1",
+      "date": "1709280000",
+      "tags": [
+        "livre",
+        "jeunesse",
+        "témoignage"
+      ],
+      "title": "Une jeunesse au temps de la Shoah : Extraits d'une vie",
+      "link": "https://google.com",
+      "content": "Ce recueil regroupe des journaux intimes, des lettres et des souvenirs d'enfants et d'adolescents juifs : une plongée poignante dans leur quotidien bouleversé par la Shoah.",
+      "description": "Cet ouvrage rassemble des témoignages poignants et des extraits de la vie de jeunes confrontés à la tragédie de la Shoah dans toute l'Europe. Au fil de journaux intimes et de correspondances, il offre une perspective de premier plan sur la perte de l'innocence, la séparation d'avec les familles, et le quotidien insoutenable de la guerre vécu à hauteur d'enfant. En tant que lycéens, ce recueil a été une lecture particulièrement difficile mais essentielle pour notre recherche. Lire le sort de la Shoah à travers les mots de jeunes qui avaient notre âge, ou même moins, nous a fait réaliser l'ampleur de l'enfance volée par l'univers concentrationnaire nazi. Ces fragments de vie nous rappellent cruellement que derrière les grands chiffres de l'Holocauste, il y avait des destins individuels, des rêves d'adolescents et des voix innocentes qu'il est de notre devoir de faire résonner aujourd'hui.",
+      "thumbnail": "https://billetterie.memorialdelashoah.org/media/cache/sylius_shop_product_original/e0/e5/1dab85a910fe98173a546edfc585.jpeg"
+    },
+    {
+      "id": "2",
+      "date": "1580515200",
+      "tags": [
+        "vidéo",
+        "témoignage",
+        "marseille",
+        "auschwitz",
+        "bergen-belsen"
+      ],
+      "title": "Témoignage de Flora Eskenazi",
+      "link": "https://lesderniers.org/temoin/flora/",
+      "content": "Témoignage vidéo de Flora Eskenazi, née à Marseille en 1925, déportée à Auschwitz par le convoi 70 avant de revenir s'installer dans sa ville natale.",
+      "description": "Ce témoignage vidéo retrace le bouleversant parcours de Flora Eskenazi (projet « Les Derniers »). Née à Marseille en 1925 de parents immigrés, sa famille se réfugie dans le Var avant d'être arrêtée. Déportée à Auschwitz par le convoi 70, elle survit également à l'enfer de Bergen-Belsen, y perdant une vingtaine de membres de sa famille. Huit mois après la fin de la guerre, elle rentre à Marseille pour se reconstruire, refusant catégoriquement que son histoire soit considérée comme « de l'histoire ancienne ». En tant que lycéens marseillais, écouter Flora raconter avec autant de force et de résilience sa jeunesse brisée nous touche profondément. Son ancrage dans notre ville résonne en nous et rend l'horreur des rafles de l'époque bien plus palpable. Voir et s'imprégner de ce témoignage oral nous fait prendre conscience du traumatisme indélébile que la Shoah a laissé sur les survivants de notre propre région, et de l'urgence de continuer à transmettre leur mémoire.",
+      "thumbnail": "medias/lesderniers.jpg"
+    },
+    {
+      "id": "3",
+      "date": "1672531200",
+      "tags": [
+        "histoire",
+        "après-guerre",
+        "camps",
+        "reconstruction"
+      ],
+      "title": "Les camps de personnes déplacées",
+      "link": "http://www.enseigner-histoire-shoah.org/outils-et-ressources/fiches-thematiques/les-grandes-etapes-de-la-shoah-1939-1945/etude-de-cas-les-camps-de-personnes-deplacees.html",
+      "content": "Cette ressource pédagogique explique ce qu’il est arrivé aux survivants de la Shoah après 1945, notamment leur passage dans les camps de personnes déplacées mis en place par les Alliés pour accueillir ceux qui n’avaient plus de foyer ni de famille.",
+      "description": "Après la libération des camps nazis, de nombreux survivants se retrouvent sans maison, sans proches et parfois sans pays où retourner. Les camps de personnes déplacées sont alors créés pour les héberger temporairement. Le document explique leurs conditions de vie, l’attente d’une émigration et les efforts faits pour reconstruire une vie à travers l’école, la culture et la vie communautaire.\n\nEn tant que lycéens, cette ressource nous a marqués car elle montre que la fin de la guerre ne signifie pas la fin des difficultés. Nous avons compris que les survivants ont dû apprendre à revivre après avoir tout perdu. Cela rend l’histoire plus concrète et humaine, et nous aide à mieux imaginer ce que ressentaient les personnes de notre âge à cette époque. Ce document nous a permis de voir la Shoah non seulement comme une tragédie historique, mais aussi comme une histoire de reconstruction et d’espoir malgré tout.",
+      "thumbnail": "medias/mdls.gif"
+    }
+  ]
+}
