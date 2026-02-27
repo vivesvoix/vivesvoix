@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page introuvable | Vives voix</title>
+
+    <!-- Méta-descriptions de base -->
+    <meta name="description" content="Plateforme interactive témoignant de la vie après la Shoah.">
+    <meta name="theme-color" content="#312e81">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vivesvoix.vercel.app/">
+    <meta property="og:title" content="Vives voix - La vie après la Shoah">
+    <meta property="og:description" content="Plateforme interactive témoignant de la vie après la Shoah.">
+    <meta property="og:image" content="https://vivesvoix.vercel.app/medias/favicon.ico">
+
+    <!-- Styles -->
+    <link href="/src/post.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="min-h-screen relative flex flex-col antialiased selection:bg-blue-500/30">
+
+    <!-- texte de fond animé -->
+    <div id="bg-text-container" class="bg-text-container" aria-hidden="true">
+        <!-- le texte sera inséré dynamiquement via JS intégré -->
+    </div>
+
+    <!-- conteneur principal -->
+    <div
+        class="flex-grow z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex flex-col justify-center items-center min-h-[80vh]">
+
+        <!-- carte centrale d'erreur -->
+        <div
+            class="relative overflow-hidden glass shadow-2xl rounded-3xl md:rounded-[2.5rem] p-10 md:p-20 flex flex-col items-center text-center animate-fade-in-up border-t-[4px] md:border-t-[6px] border-t-indigo-500 max-w-2xl w-full">
+
+            <!-- formes colorées de décoration -->
+            <div
+                class="absolute -top-24 -right-16 w-64 h-64 bg-indigo-500/20 rounded-full blur-3xl pointer-events-none">
+            </div>
+            <div
+                class="absolute -bottom-24 -left-16 w-64 h-64 bg-pink-500/20 rounded-full blur-3xl pointer-events-none">
+            </div>
+
+            <div class="relative z-10 flex flex-col items-center">
+                <h1
+                    class="text-7xl sm:text-8xl md:text-9xl font-black tracking-tight mb-6 whitespace-nowrap text-gradient">
+                    404
+                </h1>
+                <p class="text-lg md:text-xl text-slate-200 mb-10 font-medium leading-relaxed">
+                    La page que vous recherchez semble s'être égarée. Si vous pensez que c'est une erreur,
+                    contactez-nous.
+                </p>
+
+                <a href="/"
+                    class="inline-flex items-center justify-center px-6 md:px-8 py-3 md:py-3.5 text-sm md:text-base font-bold transition-all duration-300 border border-transparent rounded-full focus:outline-none focus:ring-2 focus:ring-offset-2 active:scale-95 shadow-xl bg-indigo-600 text-white md:hover:bg-indigo-500 focus:ring-indigo-500 shadow-indigo-600/25 md:hover:shadow-indigo-500/40">
+                    Revenir à l'unique page
+                    <svg class="ml-2 -mr-1 w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        // rendu du texte animé en fond (version allégée sans main.js)
+        const bgTextContainer = document.getElementById('bg-text-container');
+        const text = "INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE";
+
+        for (let i = 0; i < 5; i++) {
+            const line = document.createElement('div');
+            line.className = 'bg-text-line';
+            line.textContent = `${text} \u00A0\u00A0\u00A0 ${text} \u00A0\u00A0\u00A0 ${text}`;
+            line.style.animationDuration = `${5 + (Math.random() * 10)}s`;
+            bgTextContainer.appendChild(line);
+        }
+    </script>
+</body>
+
+</html>
