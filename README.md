@@ -50,6 +50,11 @@ Si vous souhaitez contribuer au projet :
 
 *Si nous utilisons par mégarde des contenus (images ou textes) dont nous ne détenons pas les droits, nous nous en excusons. N'hésitez pas à nous contacter via les **issues** ou par [e-mail](mailto:admin@vivesvoix.fr) pour que nous puissions procéder à leur retrait immédiat.*
 
+## Idées potentielles
+
+1. Un système de contributions intégré permettant de proposer des modifications ou des ajouts sans passer par GitHub → système sécurisé SANS logins mais potentiellement avec des jetons
+2. Internationalisation (i18n) pour rendre le site accessible en plusieurs langues.
+
 ## Licence
 
 Ce projet est sous licence MIT. Vous pouvez l'utiliser, le modifier et le distribuer librement.
