@@ -12,8 +12,12 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
-app.use(express.static('pages'));
-app.use('/src', express.static('src'));
+app.use(express.static(join(__dirname, 'pages')));
+app.use('/src', express.static(join(__dirname, 'src')));
+
+app.get('/', (req, res) => {
+    res.sendFile(join(__dirname, 'pages', 'index.html'));
+});
 
 // const defaultData = { timestamp: Date.now(), error: "no_db" }
 // const db = await JSONFilePreset('db/db.json', defaultData)
@@ -31,15 +35,18 @@ app.use('/src', express.static('src'));
 // routes
 
 app.get('/api/db', (req, res) => {
-    res.sendFile('db/db.json', { root: '.' });
-})
+    app.get('/api/db', (req, res) => {
+        res.sendFile(join(__dirname, 'db', 'db.json'));
+    })
 
-app.get('/favicon.ico', (req, res) => {
-    res.sendFile('medias/favicon.ico', { root: '.' });
-})
+    app.get('/favicon.ico', (req, res) => {
+        res.sendFile(join(__dirname, 'medias', 'favicon.ico'));
+    })
 
-app.use("/medias", express.static(join(__dirname, '/medias')));
+    app.use("/medias", express.static(join(__dirname, '/medias')));
 
-app.listen(PORT, () => {
-    console.log(`Le site est lancé sur http://localhost:${PORT}`);
-});
+    app.listen(PORT, () => {
+        console.log(`Le site est lancé sur http://localhost:${PORT}`);
+    });
+
+    export default app;
