@@ -35,18 +35,17 @@ app.get('/', (req, res) => {
 // routes
 
 app.get('/api/db', (req, res) => {
-    app.get('/api/db', (req, res) => {
-        res.sendFile(join(__dirname, 'db', 'db.json'));
-    })
+    res.sendFile(join(__dirname, 'db', 'db.json'));
+});
 
-    app.get('/favicon.ico', (req, res) => {
-        res.sendFile(join(__dirname, 'medias', 'favicon.ico'));
-    })
+app.get('/favicon.ico', (req, res) => {
+    res.sendFile(join(__dirname, 'medias', 'favicon.ico'));
+});
 
-    app.use("/medias", express.static(join(__dirname, '/medias')));
+app.use("/medias", express.static(join(__dirname, 'medias')));
 
-    app.listen(PORT, () => {
-        console.log(`Le site est lancé sur http://localhost:${PORT}`);
-    });
+app.listen(PORT, () => {
+    console.log(`Le site est lancé sur http://localhost:${PORT}`);
+});
 
-    export default app;
+export default app;
