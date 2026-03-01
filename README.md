@@ -53,6 +53,9 @@ Si vous souhaitez contribuer au projet :
 - Proposer des ajouts (nouvelles ressources, nouvelles fonctionnalités, etc.)
 - Ajouter de nouvelles fonctionnalités (utilisation de l'API, etc.)
 
+**Veillez à suivre les [conventions de commits](https://www.conventionalcommits.org/en/v1.0.0/) et à faire vos commits en anglais dans des branches différentes.**
+
+
 *Si nous utilisons par mégarde des contenus (images ou textes) dont nous ne détenons pas les droits, nous nous en excusons. N'hésitez pas à nous contacter via les **issues** ou par [e-mail](mailto:admin@vivesvoix.fr) pour que nous puissions procéder à leur retrait immédiat.*
 
 ## Idées potentielles
