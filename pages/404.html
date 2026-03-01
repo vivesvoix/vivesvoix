@@ -68,9 +68,24 @@
     </div>
 
     <script>
+        // récupération des paramètres de l'URL (?code=...&msg=...)
+        const urlParams = new URLSearchParams(window.location.search);
+        const errorCode = urlParams.get('code') || '404';
+        const errorMsg = urlParams.get('msg') || "La page que vous recherchez semble s'être égarée. Si vous pensez que c'est une erreur, contactez-nous.";
+
+        // mise à jour des éléments de la page
+        document.title = `${errorCode} - Erreur | Vives voix`;
+        const codeElement = document.querySelector('h1.text-gradient');
+        const msgElement = document.querySelector('p.text-slate-200');
+
+        if (codeElement) codeElement.textContent = errorCode;
+        if (msgElement) msgElement.textContent = errorMsg;
+
         // rendu du texte animé en fond (version allégée sans main.js)
         const bgTextContainer = document.getElementById('bg-text-container');
-        const text = "INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE INTROUVABLE";
+        // on adapte le texte de fond en fonction du code
+        const bgWord = errorCode === '404' ? 'INTROUVABLE' : 'ERREUR';
+        const text = `${bgWord} ${bgWord} ${bgWord} ${bgWord} ${bgWord} ${bgWord} ${bgWord}`;
 
         for (let i = 0; i < 5; i++) {
             const line = document.createElement('div');
