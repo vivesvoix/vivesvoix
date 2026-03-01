@@ -56,10 +56,21 @@ app.get('/.well-known/security.txt', (req, res) => {
     res.send(securityContact);
 });
 
-// reste des requêtes (erreur 404)
+app.get('/error', (req, res) => {
+    res.sendFile(join(__dirname, 'pages', '404.html'));
+});
 
 app.use((req, res) => {
     res.status(404).sendFile(join(__dirname, 'pages', '404.html'));
+});
+
+// gestionnaire global d'erreurs (doit être le dernier middleware)
+app.use((err, req, res, next) => {
+    console.error("Erreur serveur détectée :", err.stack);
+
+    const code = err.status || 500;
+    const msg = encodeURIComponent("Oups, une erreur interne s'est produite. Le serveur a rencontré un problème inattendu.");
+    res.redirect(`/error?code=${code}&msg=${msg}`);
 });
 
 app.listen(PORT, () => {
