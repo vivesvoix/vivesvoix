@@ -185,8 +185,8 @@ const applyFilters = () => {
         const matchesSearch = textTarget.includes(searchTerm);
 
         // 2. recherche par tags
-        // si aucun tag n'est sélectionné, on garde tout. sinon il faut au moins un match
-        const matchesTags = selectedTags.size === 0 || Array.from(selectedTags).some(tag => item.tags.includes(tag));
+        // si aucun tag n'est sélectionné, on garde tout. sinon il faut avoir TOUS les tags sélectionnés
+        const matchesTags = selectedTags.size === 0 || Array.from(selectedTags).every(tag => item.tags.includes(tag));
 
         return matchesSearch && matchesTags;
     });
