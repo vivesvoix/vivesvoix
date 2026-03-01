@@ -38,6 +38,10 @@ app.get('/api/db', (req, res) => {
     res.sendFile(join(__dirname, 'db', 'db.json'));
 });
 
+app.get('/synthese', (req, res) => {
+    res.sendFile(join(__dirname, 'docs', 'synthese.pdf'));
+});
+
 app.get('/favicon.ico', (req, res) => {
     res.sendFile(join(__dirname, 'medias', 'favicon.ico'));
 });

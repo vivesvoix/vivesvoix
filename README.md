@@ -15,7 +15,7 @@ Mais la véritable force de ce site est son aspect **collaboratif** et **sécuri
 
 Nous avons choisi de nous tourner vers un backend en **Node** avec **Express**, pour sa facilité. Nous considérions **Next.js**, mais ça serait plus compliqué en sachant que notre projet ne contient en réalité qu'une unique page. Le frontend est quant à lui réalisé avec **TailwindCSS** permettant une mise en page simple mais sublime.
 
-Les informations sont centralisées dans une base de données en JSON, facilement accessible et modifiable. Ce n'est qu'un fichier, vulnérable en cas de corruption en production, mais nous utilisons [Lowdb](https://github.com/typicode/lowdb) pour éviter que le serveur modifie le fichier en même temps que l'utilisateur.
+Les informations sont centralisées dans une base de données en JSON, facilement accessible et modifiable. Ce n'est qu'un fichier, vulnérable en cas de corruption en production, mais nous utilisons [Lowdb](https://github.com/typicode/lowdb) pour éviter que le serveur modifie le fichier en même temps que l'administrateur.
 
 ### Installation et Mise en service
 
@@ -47,6 +47,11 @@ Les ressources utilisées pour la création de ce projet sont toutes explicitée
 Si vous souhaitez contribuer au projet :
 - Vous pouvez ouvrir une "issue" sur ce dépôt pour proposer une amélioration ou signaler un problème.
 - Vous pouvez proposer une "pull request" pour soumettre vos modifications si vous comprenez l'infrastructure technique.
+
+### **Les contributions peuvent être faites pour plusieurs raisons :**
+- Proposer des corrections aux ressources déjà existantes (corrections orthographiques, fautes d'orthographe, histoires erronées, etc.)
+- Proposer des ajouts (nouvelles ressources, nouvelles fonctionnalités, etc.)
+- Ajouter de nouvelles fonctionnalités (utilisation de l'API, etc.)
 
 *Si nous utilisons par mégarde des contenus (images ou textes) dont nous ne détenons pas les droits, nous nous en excusons. N'hésitez pas à nous contacter via les **issues** ou par [e-mail](mailto:admin@vivesvoix.fr) pour que nous puissions procéder à leur retrait immédiat.*
 
