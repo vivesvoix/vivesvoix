@@ -1,3 +1,5 @@
+/* si votre ide affiche des erreurs, ignorez les, les syntaxes seront comprises par tailwind - adam*/
+
 @import "tailwindcss";
 @source "../pages";
 
@@ -11,18 +13,18 @@
 @layer utilities {
     .glass {
         @apply bg-glass-base backdrop-blur-lg border border-glass-border shadow-lg;
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.2), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.2);
     }
 
     .glass-card {
         @apply bg-glass-base backdrop-blur-lg border border-glass-border shadow-lg rounded-3xl overflow-hidden transition-all duration-300;
-        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.2), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.2);
     }
 
     @media (hover: hover) {
         .glass-card:hover {
             @apply -translate-y-2 shadow-2xl;
-            box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.5);
+            box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.5), inset 1px 1px 0px 0px rgba(255, 255, 255, 0.3), inset -1px -1px 0px 0px rgba(255, 255, 255, 0.3);
             border-color: rgba(255, 255, 255, 0.3);
         }
     }
