@@ -180,8 +180,8 @@ const applyFilters = () => {
     const searchTerm = searchInput.value.toLowerCase();
 
     const filtered = allData.filter(item => {
-        // 1. recherche texte (titre, contenu, ou id)
-        const textTarget = `${item.title} ${item.content} ${item.id}`.toLowerCase();
+        // 1. recherche texte (titre, contenu, description ou id)
+        const textTarget = `${item.title} ${item.content} ${item.description || ''} ${item.id}`.toLowerCase();
         const matchesSearch = textTarget.includes(searchTerm);
 
         // 2. recherche par tags
