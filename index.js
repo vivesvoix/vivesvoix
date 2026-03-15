@@ -1,5 +1,3 @@
-// Adam / qwkuns
-
 import express from 'express';
 import { JSONFilePreset } from 'lowdb/node';
 import { dirname, join } from 'path';

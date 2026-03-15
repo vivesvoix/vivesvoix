@@ -1,5 +1,3 @@
-// Adam / qwkuns
-
 // éléments du dom
 const bgTextContainer = document.getElementById('bg-text-container');
 const cardsGrid = document.getElementById('cards-grid');

@@ -5,7 +5,7 @@
 
 > *Institué en 1961 par Lucien Paye, ministre de l'Éducation nationale, à la suite d'initiatives d'associations d'anciens résistants et déportés, le CNRD est un concours scolaire qui s'appuie sur l'enseignement de l'histoire, de l'histoire des mémoires, de la Résistance et de la Déportation. Chaque année, un thème est défini. Ce concours est une composante essentielle du parcours citoyen de l'élève. Le thème de la session 2025-2026 du Concours national de la Résistance et de la Déportation est "La fin de la Shoah et de l’univers concentrationnaire nazi. Survivre, témoigner, juger (1944-1948)".*
 
-Ce projet scolaire est une participation au [concours national de la Résistance et de la Déportation](https://www.education.gouv.fr/le-concours-national-de-la-resistance-et-de-la-deportation-465729). Il s'agit de la participation de **Lyna, Camille, Mélina et Adam**, élèves de **Terminale générale** au lycée polyvalent **Jean Perrin** à Marseille.
+Ce projet scolaire est une participation au [concours national de la Résistance et de la Déportation](https://www.education.gouv.fr/le-concours-national-de-la-resistance-et-de-la-deportation-465729).
 
 Ce site a pour but de centraliser des ressources sur la vie des survivants de la Shoah. Des livres aux témoignages, en passant par des musées et des sites institutionnels, nous avons rassemblé une partie de ce qui peut aider à comprendre ce qu'est la Shoah et comment les survivants ont pu vivre après.
 
