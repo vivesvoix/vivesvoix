@@ -1,0 +1,259 @@
+window.localDbData = {
+  "timestamp": 1772212577768,
+  "credits": {
+    "title": "Informations",
+    "text": "<i>Vous utilisez actuellement la version locale, <a href='https://vivesvoix.fr/'><u>le site</u></a> a depuis certainement été mis à jour.</i> \n\n Ce site est fait pour s'étendre et accueillir de nouvelles ressources. En effet, vous pouvez contribuer à l'aide du lien GitHub, tout est expliqué dans la documentation du code source.\n\n Cet espace a été créé dans le cadre du Concours national de la Résistance et de la Déportation édition 2025-2026. Son but est de rassembler des ressources sur la vie des survivants de la Shoah. Si des sources présentes sur ce site vous appartiennent et que vous souhaitez les retirer, veuillez nous contacter par l'intermédiaire du repo GitHub dans \"Issues\" ou par mail ci-dessous. ",
+    "links": [
+      {
+        "label": "Concours national de la résistance et de la déportation",
+        "url": "https://fr.wikipedia.org/wiki/Concours_national_de_la_r%C3%A9sistance_et_de_la_d%C3%A9portation"
+      },
+      {
+        "label": "Code source GitHub",
+        "url": "https://github.com/vivesvoix/vivesvoix"
+      },
+      {
+        "label": "Adresse e-mail",
+        "url": "mailto:admin@vivesvoix.fr"
+      }
+    ]
+  },
+  "backgroundtext": "VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX VIVES VOIX",
+  "items": [
+    {
+      "id": "0",
+      "date": "1208469600",
+      "tags": [
+        "livre",
+        "témoignage",
+        "jeunesse",
+        "marseille",
+        "camps"
+      ],
+      "title": "J’avais 16 ans à Pitchipoï",
+      "link": "https://billetterie.memorialdelashoah.org/fr/products/j-avais-seize-ans-a-pitchipoi",
+      "content": "L’histoire bouleversante de Denise Toros-Marter, adolescente marseillaise déportée vers l’inconnu : \"Pitchipoï\", ce nom yiddish aux allures de village imaginaire qui dissimulait l’enfer d’Auschwitz.",
+      "description": "Dans ce témoignage autobiographique, Denise Toros-Marter raconte son arrestation en tant que jeune juive marseillaise. Internée au camp de Drancy, elle y entend le surnom de \"Pitchipoï\" (\"village imaginaire\") pour désigner leur destination inconnue. L'illusion se brise dramatiquement à l'arrivée des trains : il s'agissait du camp d'Auschwitz. Pour nous, lycéens marseillais, mettre un visage sur une jeune fille de notre âge arrachée aux rues mêmes de notre ville a rendu ce récit bouleversant. Cette lecture ancre concrètement l'horreur de la déportation et prouve l'importance vitale, pour notre génération, d'écouter la voix de ces survivants locaux.",
+      "thumbnail": "https://m.media-amazon.com/images/I/51nDBwO4uzL._SY522_.jpg"
+    },
+    {
+      "id": "1",
+      "date": "1476612000",
+      "tags": [
+        "exposition",
+        "histoire",
+        "après-guerre",
+        "camps",
+        "reconstruction"
+      ],
+      "title": "Expostion : Après la Shoah",
+      "link": "https://apres-la-shoah.memorialdelashoah.org/exposition.html",
+      "content": "Exposition complète datant de 2016 retraçant le parcours des rescapés des camps, qui vivent des destins très différents les uns des autres.",
+      "description": "Cette exposition retrace le parcours des rescapés des camps, qui vivent des destins très différents les uns des autres. La ressource montre des vidéos, des photographies, des tableaux ainsi que des textes historiques et des descriptions des chemins parcourus. Nous avons été particulièrement touchés par les différentes photographies des libérations des camps et des visages des survivants qui se reconstruisent. Des photographies montrent une réinsertion dans la société, comme \"Cours de cordonnerie organisé par l'ORT dans le centre d'hébergement pour réfugié juifs à Hénonville. France\", qui montre les efforts des survivants pour se reconstruire.",
+      "thumbnail": "medias/mdls.gif"
+    },
+    {
+      "id": "2",
+      "date": "1580515200",
+      "tags": [
+        "vidéo",
+        "témoignage",
+        "marseille",
+        "camps"
+      ],
+      "title": "Témoignage de Flora Eskenazi",
+      "link": "https://lesderniers.org/temoin/flora/",
+      "content": "Témoignage vidéo de Flora Eskenazi, née à Marseille en 1925, déportée à Auschwitz par le convoi 70 avant de revenir s'installer dans sa ville natale.",
+      "description": "Ce témoignage vidéo retrace le bouleversant parcours de Flora Eskenazi (projet « Les Derniers »). Née à Marseille en 1925 de parents immigrés, sa famille se réfugie dans le Var avant d'être arrêtée. Déportée à Auschwitz par le convoi 70, elle survit également à l'enfer de Bergen-Belsen, y perdant une vingtaine de membres de sa famille. Huit mois après la fin de la guerre, elle rentre à Marseille pour se reconstruire, refusant catégoriquement que son histoire soit considérée comme « de l'histoire ancienne ». En tant que lycéens marseillais, écouter Flora raconter avec autant de force et de résilience sa jeunesse brisée nous touche profondément. Son ancrage dans notre ville résonne en nous et rend l'horreur des rafles de l'époque bien plus palpable. Voir et s'imprégner de ce témoignage oral nous fait prendre conscience du traumatisme indélébile que la Shoah a laissé sur les survivants de notre propre région, et de l'urgence de continuer à transmettre leur mémoire.",
+      "thumbnail": "medias/lesderniers.jpg"
+    },
+    {
+      "id": "3",
+      "date": "1672531200",
+      "tags": [
+        "histoire",
+        "après-guerre",
+        "camps",
+        "reconstruction"
+      ],
+      "title": "Les camps de personnes déplacées",
+      "link": "http://www.enseigner-histoire-shoah.org/outils-et-ressources/fiches-thematiques/les-grandes-etapes-de-la-shoah-1939-1945/etude-de-cas-les-camps-de-personnes-deplacees.html",
+      "content": "Cette ressource pédagogique explique ce qu’il est arrivé aux survivants de la Shoah après 1945, notamment leur passage dans les camps de personnes déplacées mis en place par les Alliés pour accueillir ceux qui n’avaient plus de foyer ni de famille.",
+      "description": "Après la libération des camps nazis, de nombreux survivants se retrouvent sans maison, sans proches et parfois sans pays où retourner. Les camps de personnes déplacées sont alors créés pour les héberger temporairement. Le document explique leurs conditions de vie, l’attente d’une émigration et les efforts faits pour reconstruire une vie à travers l’école, la culture et la vie communautaire.\n\nEn tant que lycéens, cette ressource nous a marqués car elle montre que la fin de la guerre ne signifie pas la fin des difficultés. Nous avons compris que les survivants ont dû apprendre à revivre après avoir tout perdu. Cela rend l’histoire plus concrète et humaine, et nous aide à mieux imaginer ce que ressentaient les personnes de notre âge à cette époque. Ce document nous a permis de voir la Shoah non seulement comme une tragédie historique, mais aussi comme une histoire de reconstruction et d’espoir malgré tout.",
+      "thumbnail": "medias/mdls.gif"
+    },
+    {
+      "id": "4",
+      "date": "1709280000",
+      "tags": [
+        "livre",
+        "témoignage",
+        "jeunesse",
+        "camps"
+      ],
+      "title": "Une jeunesse au temps de la Shoah : Extraits d'une vie",
+      "link": "https://billetterie.memorialdelashoah.org/fr/products/une-jeunesse-au-temps-de-la-shoah-extraits-d-une-vie",
+      "content": "Ce recueil regroupe des journaux intimes, des lettres et des souvenirs d'enfants et d'adolescents juifs : une plongée poignante dans leur quotidien bouleversé par la Shoah.",
+      "description": "Cet extrait de l'ouvrage de Simone Veil rassemble des témoignages poignants et des extraits de la vie de jeunes confrontés à la tragédie de la Shoah dans toute l'Europe. Au fil de journaux intimes et de correspondances, il offre une perspective de premier plan sur la perte de l'innocence, la séparation d'avec les familles, et le quotidien insoutenable de la guerre vécu à hauteur d'enfant. En tant que lycéens, ce recueil a été une lecture particulièrement difficile mais essentielle pour notre recherche. Lire le sort de la Shoah à travers les mots de jeunes qui avaient notre âge, ou même moins, nous a fait réaliser l'ampleur de l'enfance volée par l'univers concentrationnaire nazi. Ces fragments de vie nous rappellent cruellement que derrière les grands chiffres de l'Holocauste, il y avait des destins individuels, des rêves d'adolescents et des voix innocentes qu'il est de notre devoir de faire résonner aujourd'hui.",
+      "thumbnail": "https://billetterie.memorialdelashoah.org/media/cache/sylius_shop_product_original/e0/e5/1dab85a910fe98173a546edfc585.jpeg"
+    },
+    {
+      "id": "5",
+      "date": "1268265600",
+      "tags": [
+        "livre",
+        "témoignage",
+        "jeunesse",
+        "après-guerre",
+        "reconstruction"
+      ],
+      "title": "Retour à la vie: Guérir de la Shoah, entre témoignage et résilience",
+      "link": "https://www.amazon.fr/Retour-vie-Gu%C3%A9rir-t%C3%A9moignage-r%C3%A9silience/dp/2847346449",
+      "content": "Au-delà du récit, qui pourrait être celui de centaines d'autres enfants juifs jetés dans la tourmente de la Seconde Guerre mondiale et de la Shoah, Henri Parens nous entraîne dans sa démarche de résilience. Pourquoi a-t-il survécu sans se rendre compte de ce qui se passait ? Pourquoi a-t-il attendu si longtemps avant de témoigner et d'entreprendre des recherches sur sa famille ?",
+      "description": "Dans ce témoignage bouleversant, Henri Parens livre bien plus que ses souvenirs d'enfant juif rescapé de la Shoah : il explore les mécanismes complexes de la résilience et du traumatisme. Survivant sans avoir pleinement pris conscience de l'horreur sur le moment, l'auteur explique pourquoi il a attendu si longtemps avant de retrouver la trace de sa famille et de témoigner. Ses analyses sur l'implantation des germes de la violence et de l'intolérance dès la petite enfance invitent à une profonde réflexion. En tant que lycéens, cette lecture nous a particulièrement touchés car elle mêle le récit tragique d'un enfant à un travail d'autoanalyse sur la psychologie et la reconstruction. Comprendre comment la haine se construit est pour nous essentiel pour s'assurer que de telles atrocités ne recommencent jamais.",
+      "thumbnail": "https://m.media-amazon.com/images/I/41Y5YyrYSbL._SY466_.jpg"
+    },
+    {
+      "id": "6",
+      "date": "948894748",
+      "tags": [
+        "livre",
+        "histoire",
+        "après-guerre",
+        "reconstruction"
+      ],
+      "title": "Les Juifs d'Europe depuis 1945",
+      "link": "https://www.calmann-levy.fr/livre/les-juifs-deurope-depuis-1945-9782702130766/",
+      "content": "Depuis 1945, l'histoire des Juifs d'Europe a cessé de suivre un cours particulier ; elle converge désormais avec celle des non-Juifs, dont elle partage, pour le meilleur et pour le pire, le destin.",
+      "description": "Dans cet essai historique, Bernard Wasserstein analyse l'évolution des communautés juives d'Europe au lendemain de la Seconde Guerre mondiale. Au-delà du traumatisme immédiat, l'auteur étudie comment ces populations se sont reconstruites face à la sécularisation, l'assimilation et la création de l'État d'Israël, allant jusqu'à s'interroger sur l'avenir et la pérennité de cette diaspora. En tant que lycéens, ce livre nous a permis de prendre du recul. Après avoir étudié de nombreux récits individuels de rescapés de la Shoah, cet ouvrage nous a aidés à comprendre la situation globale des survivants à l'échelle d'un continent dévasté. Il met en lumière les profonds bouleversements identitaires et démographiques de l'après-guerre, essentiels pour saisir l'héritage laissé par les survivants dans notre société contemporaine.",
+      "thumbnail": "https://media.hachette.fr/fit-in/780x1280/imgArticle/CALMANNLEVY/2000/9782702130766-G.jpg?source=web&v=aca143a2afe59aeb91a61af66327fd4c"
+    },
+    {
+      "id": "7",
+      "date": "1763164800",
+      "tags": [
+        "livre",
+        "témoignage",
+        "jeunesse",
+        "histoire",
+        "transmission"
+      ],
+      "title": "Plaidoyer pour la paix",
+      "link": "https://www.racine.be/fr/plaidoyer-pour-la-paix",
+      "content": "Dans ce nouvel ouvrage paru en novembre 2025, Simon Gronowski, rescapé de la Shoah, s'adresse aux jeunes pour transmettre un message d'espoir, de paix et de vigilance face à la haine.",
+      "description": "Simon Gronowski a échappé à la déportation en 1943, à l'âge de 11 ans, lorsque sa mère l'a poussé hors du 20e convoi en route vers Auschwitz. Dans ce livre paru en novembre 2025, ce survivant nonagénaire ne se contente pas de raconter son passé : il s'adresse directement à notre génération. Il nous met en garde contre les dangers du négationnisme et la montée des extrêmes, tout en gardant une foi inébranlable en l'humanité. En tant que lycéens participant au concours, cette lecture nous a profondément marqués par son optimisme et sa force morale. Entendre un rescapé plaider pour la tolérance et l'égalité de toutes les vies donne tout son sens à notre devoir de mémoire et de transmission.",
+      "thumbnail": "https://www.racine.be/sites/default/files/styles/product_cover_full_page/public/product_covers/9782390253631.jpg?itok=Tq4xvmRP"
+    },
+    {
+      "id": "8",
+      "date": "1579824000",
+      "tags": [
+        "livre",
+        "témoignage",
+        "jeunesse",
+        "transmission",
+        "camps"
+      ],
+      "title": "Retour à Birkenau",
+      "link": "https://www.livredepoche.com/livre/retour-birkenau-9782253101307/",
+      "content": "Arrêtée par la Gestapo en mars 1944 à Avignon, Ginette Kolinka est déportée à Auschwitz-Birkenau. Dans ce livre, elle raconte son expérience concentrationnaire et son infatigable travail de transmission auprès des jeunes.",
+      "description": "Dans ce témoignage marquant publié avec la journaliste Marion Ruggieri, Ginette Kolinka revient sur son arrestation à 19 ans et sa déportation à Auschwitz-Birkenau, où elle fut séparée de son père et de son petit frère, assassinés à leur arrivée. Elle y décrit l'horreur quotidienne, la violence, mais aussi l'amitié nouée avec Marceline Loridan-Ivens et Simone Veil. En tant que lycéens, ce livre résonne très fortement en nous, car l'autrice a passé de nombreuses années à arpenter les établissements scolaires pour nous raconter son histoire. Son récit brut, sans fard, et ses questionnements sur sa propre survie rendent la tragédie de la Shoah extrêmement tangible et soulignent l'importance de devenir, à notre tour, des passeurs de mémoire.",
+      "thumbnail": "https://media.hachette.fr/fit-in/780x1280/imgArticle/LGFLIVREDEPOCHE/2020/9782253101307-001-X.jpeg?source=web&v=6088e52a60b0d66ec1a6290577111841"
+    },
+    {
+      "id": "9",
+      "date": "631152000",
+      "tags": [
+        "bande-dessinée",
+        "témoignage",
+        "après-guerre",
+        "traumatisme",
+        "famille"
+      ],
+      "title": "Maus",
+      "link": "https://fr.wikipedia.org/wiki/Maus",
+      "content": "L'œuvre magistrale d'Art Spiegelman, récompensée par le prix Pulitzer, retrace à travers la bande dessinée l'histoire de son père, Vladek, survivant d'Auschwitz, tout en explorant le fardeau de la seconde génération.",
+      "description": "À travers le format inattendu du roman graphique, Art Spiegelman retrace l'histoire de la survie de ses parents juifs polonais pendant la Shoah, en utilisant la métaphore animalière : les Juifs sont représentés en souris et les nazis en chats. Mais ce qui rend cette œuvre fondamentale pour nos recherches, c'est l'entrelacement entre le passé du père à Auschwitz et le présent, où l'on voit le fils tenter de recueillir ce témoignage complexe. Pour notre groupe de lycéens, *Maus* met brillamment en lumière la notion de traumatisme intergénérationnel : la guerre ne s'est pas arrêtée en 1945 pour les rescapés, et leurs enfants héritent souvent des blessures silencieuses de cette tragédie. Ce chef-d'œuvre montre comment l'art peut être un outil puissant d'enquête historique et d'introspection familiale.",
+      "thumbnail": "https://images-eu.ssl-images-amazon.com/images/I/81bO-43T+3L._AC_UL600_SR600,600_.jpg"
+    },
+    {
+      "id": "10",
+      "date": "1166572800",
+      "tags": [
+        "vidéo",
+        "témoignage",
+        "archives",
+        "reconstruction"
+      ],
+      "title": "Mémoires de la Shoah (Entretiens INA)",
+      "link": "https://www.fondationshoah.org/entretiens-ina-memoires-de-la-shoah/memoires-de-la-shoah-temoignages-videos-coproduits-avec-lina",
+      "content": "Un projet monumental rassemblant 110 témoignages audiovisuels d'anciens déportés et d'enfants cachés, collectés en 2005 et 2006 pour sauvegarder la parole directe des survivants des persécutions.",
+      "description": "Initié par Simone Veil et coproduit avec l'INA, ce projet de sauvegarde historique compile plus de 300 heures d'entretiens vidéo non coupés avec 110 survivants, enfants cachés et Justes. Ces archives brutes et directes reflètent la pluralité des destins et des expériences de persécution. Dans le cadre du CNRD, cette plateforme s'est révélée être une mine d'or inestimable. Regarder les rescapés s'exprimer de vive voix face caméra nous a permis de capter les silences, les regards et les émotions que les mots écrits ne peuvent pas toujours transmettre. Cette ressource monumentale garantit à notre génération un accès direct à la vérité historique, à une époque où les derniers témoins directs disparaissent.",
+      "thumbnail": "https://www.fondationshoah.org/sites/default/files/styles/fs_contenu/public/node/47331/edit/m2006_entretiens-ina_photo-martial-lorcet_600px.jpg?itok=kueIa-dJ"
+    },
+    {
+      "id": "11",
+      "date": "504921600",
+      "tags": [
+        "livre",
+        "témoignage",
+        "réflexion",
+        "mémoire",
+        "camps"
+      ],
+      "title": "Les Naufragés et les Rescapés",
+      "link": "https://www.gallimard.fr/catalogue/les-naufrages-et-les-rescapes/9782070715114",
+      "content": "Dans cet ouvrage majeur, Primo Levi réfléchit à la mémoire des camps, aux mécanismes de déshumanisation et à la difficulté de transmettre l'expérience concentrationnaire après la guerre.",
+      "description": "Dans ce livre essentiel, Primo Levi ne raconte pas seulement ce qu’il a vécu : il cherche à comprendre comment l’univers concentrationnaire a pu détruire les repères moraux, humains et sociaux de ceux qui y ont été plongés. Il analyse la violence, la honte du survivant, la mémoire, le silence et ce qu’il appelle les zones grises, c’est-à-dire les situations où les victimes étaient parfois contraintes de participer au fonctionnement du système nazi. En tant que lycéens, cette lecture nous a marqués parce qu’elle va au-delà du simple récit autobiographique : elle nous aide à penser la Shoah avec profondeur, nuance et esprit critique. Ce livre est particulièrement riche en savoir, car il montre que comprendre les camps ne consiste pas seulement à connaître des faits, mais aussi à réfléchir à ce qu’ils révèlent sur l’être humain, la peur, l’obéissance et la survie.",
+      "thumbnail": "https://www.gallimard.fr/sites/default/files/styles/low/public/migrations/ouvrages/couvertures/A71511.jpg.webp?itok=6_Qzq8zm"
+    },
+    {
+      "id": "12",
+      "date": "757382400",
+      "tags": [
+        "livre",
+        "témoignage",
+        "après-guerre",
+        "mémoire",
+        "déportation"
+      ],
+      "title": "L'Écriture ou la vie",
+      "link": "https://fr.wikipedia.org/wiki/L%27%C3%89criture_ou_la_Vie",
+      "content": "Jorge Semprún y évoque son expérience de la déportation à Buchenwald et surtout la difficulté, après la guerre, de revenir à la vie et de mettre l'horreur en mots.",
+      "description": "Dans cet ouvrage, Jorge Semprún montre que le retour des camps n’a pas signifié la fin de la souffrance. Il raconte combien il est difficile, pour un survivant, de reprendre une existence normale, de parler, d’écrire et de transmettre une expérience qui semble presque impossible à partager avec ceux qui ne l’ont pas vécue. Ce livre nous a particulièrement intéressés car il met l’accent sur l’après-guerre, c’est-à-dire sur la reconstruction intérieure des rescapés, un aspect souvent moins connu que la déportation elle-même. En tant que lycéens, nous avons trouvé cette lecture très forte, parce qu’elle montre que survivre, ce n’est pas seulement rester en vie : c’est aussi apprendre à habiter de nouveau le monde, malgré le traumatisme, la culpabilité et les souvenirs.",
+      "thumbnail": "https://media.groupe.gallimard.fr/couvHD/A40055.jpg"
+    },
+    {
+      "id": "13",
+      "date": "567993600",
+      "tags": [
+        "livre",
+        "histoire",
+        "analyse",
+        "shoah",
+        "référence"
+      ],
+      "title": "La Destruction des Juifs d'Europe",
+      "link": "https://fr.wikipedia.org/wiki/La_Destruction_des_Juifs_d%27Europe",
+      "content": "Cette somme historique de Raul Hilberg retrace avec précision le processus de persécution, d'exclusion et d'extermination des Juifs d'Europe par l'Allemagne nazie et ses collaborateurs.",
+      "description": "Ce livre est une référence majeure pour comprendre la Shoah dans toute son ampleur historique. Raul Hilberg y étudie de manière extrêmement rigoureuse les étapes de la persécution, depuis les mesures d’exclusion jusqu’à l’extermination, en montrant le rôle de l’administration, de la bureaucratie et des rouages politiques dans la mise en œuvre du génocide. Pour nous, lycéens, cet ouvrage est précieux car il apporte un savoir très complet et permet de replacer les témoignages individuels dans un cadre historique plus large. Il nous aide à comprendre que la Shoah n’a pas été seulement une explosion de haine, mais aussi un système organisé, méthodique et progressif, ce qui rend son étude indispensable pour saisir toute la portée de cette catastrophe.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Juden_1881.JPG/500px-Juden_1881.JPG"
+    },
+    {
+      "id": "14",
+      "date": "1422748800",
+      "tags": [
+        "livre",
+        "histoire",
+        "libération",
+        "après-guerre",
+        "1944-1948"
+      ],
+      "title": "1945. La découverte",
+      "link": "https://www.seuil.com/ouvrage/1945-la-decouverte-annette-wieviorka/9782021182510",
+      "content": "L'historienne Annette Wieviorka retrace l'avancée des Alliés au printemps 1945 et le choc mondial provoqué par l'ouverture des camps nazis, à travers le regard croisé d'un journaliste américain et d'un photographe français.",
+      "description": "Dans cet ouvrage historique fondamental, Annette Wieviorka aborde le moment précis où le monde découvre l'horreur des camps au printemps 1945. Le livre suit l'itinéraire de Meyer Levin, correspondant de guerre américain, et d'Éric Schwab, photographe français travaillant pour l'AFP, qui progressent avec les troupes alliées (de Buchenwald à Dachau et Bergen-Belsen). Tous deux juifs, ils cherchent ce qu'il reste du monde juif européen, Schwab espérant désespérément retrouver sa mère déportée. Pour nous, lycéens travaillant sur la période 1944-1948, ce livre apporte un savoir inestimable : il démontre que la « découverte » des camps fut un choc visuel et moral sans précédent pour l'opinion internationale. Il nous aide à comprendre cette zone de transition chaotique entre l'effondrement du système nazi, la libération des survivants et les prémices du long travail de mémoire.",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Annette_Wieviorka_portrait_2024.jpg/250px-Annette_Wieviorka_portrait_2024.jpg"
+    }
+  ]
+};

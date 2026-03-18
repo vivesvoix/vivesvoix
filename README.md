@@ -17,6 +17,8 @@ Nous avons choisi de nous tourner vers un backend en **Node** avec **Express**, 
 
 Les informations sont centralisées dans une base de données en JSON, facilement accessible et modifiable. Ce n'est qu'un fichier, vulnérable en cas de corruption en production, mais nous utilisons [Lowdb](https://github.com/typicode/lowdb) pour éviter que le serveur modifie le fichier en même temps que l'administrateur.
 
+Une version alternative locale existe désormais dans le dossier [local](local/). Elle permet de tester le site sans connexion internet. J'ai un script qui permet de copier les fichiers du projet vers le dossier local cependant je ne l'ai pas introduit dans le projet final car il n'est pas nécessaire pour le fonctionnement du site. 
+
 ### Installation et Mise en service
 
 Pour cloner et lancer ce projet localement, suivez les étapes ci-dessous :
@@ -65,4 +67,4 @@ Si vous souhaitez contribuer au projet :
 
 ## Licence
 
-Ce projet est sous licence MIT. Vous pouvez l'utiliser, le modifier et le distribuer librement.
+Ce projet est sous licence MIT. Vous pouvez l'utiliser, le modifier et le distribuer librement. Il est par exemple possible de l'utiliser pour d'autres sujets nécéssitant une centralisation de ressources et de témoignages.
